@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Keine Eile</title>
+<meta name="description" content="Keine Eile: Hab ich noch Zeit, oder muss ich laufen? Eine iPhone-App für die Wiener Öffis.">
+<link rel="icon" href="../icon.svg">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<link rel="stylesheet" href="../style.css?v=2">
+</head>
+<body>
+<main class="wide">
+  <header>
+    <a class="brand" href="./">Keine Eile</a>
+    <a class="lang" href="../" hreflang="en">English</a>
+  </header>
+  <div class="lines"></div>
+  <p class="unofficial">Unabhängige App · keine offizielle App der Wiener Linien</p>
+
+  <div class="intro">
+    <div class="pitch">
+    <div class="hero">
+      <img src="../icon.svg" alt="App-Symbol von Keine Eile">
+      <div>
+        <h1>Hab ich noch Zeit, oder muss ich laufen?</h1>
+        <p class="tagline">Eine iPhone-App für die Wiener Öffis.</p>
+      </div>
+    </div>
+    <p>Keine Eile verbindet die Echtzeit-Abfahrten der Wiener Linien mit deinem Weg zur Haltestelle und sagt dir auf einen Blick, ob du noch Zeit hast.</p>
+    <div class="links">
+      <a class="button" href="support.html">Hilfe und Kontakt</a>
+      <a class="button quiet" href="datenschutz.html">Datenschutzerklärung</a>
+    </div>
+    </div>
+    <div class="screen">
+    <div class="demo" aria-label="Beispiel aus der App">
+      <div class="row">
+        <span class="badge" style="background:#e3000f">U1</span>
+        <div class="where"><b>Leopoldau</b><span>Praterstern · <span class="walk" aria-hidden="true">🚶</span>4 Min.</span></div>
+        <div class="when green"><b><span class="dot"></span>in 9 Min.</b><span class="status">in 5 Min. losgehen</span></div>
+      </div>
+      <div class="row">
+        <span class="badge" style="background:#0a3d8f">5B</span>
+        <div class="where"><b>Bhf. Heiligenstadt</b><span>Praterstern · <span class="walk" aria-hidden="true">🚶</span>3 Min.</span></div>
+        <div class="when orange"><b><span class="dot"></span>in 4 Min.</b><span class="status">jetzt losgehen</span></div>
+      </div>
+      <div class="row">
+        <span class="badge" style="background:#c4171c">O</span>
+        <div class="where"><b>Bruno-Marek-Allee</b><span>Praterstern · <span class="walk" aria-hidden="true">🚶</span>5 Min.</span></div>
+        <div class="when red"><b><span class="dot pulse"></span>in 3 Min.</b><span class="status">Eile!</span></div>
+      </div>
+    </div>
+    <p class="caption">Grün: Du hast Zeit. Orange: Mach dich auf den Weg. Rot: nur, wenn du dich beeilst.</p>
+    </div>
+  </div>
+
+  <div class="notice"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 9v5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="10" cy="6.2" r="1.1" fill="currentColor"/></svg><div><strong>Keine App der Wiener Linien.</strong> Keine Eile ist eine unabhängige App von Sebastiaan Arnold. Die Wiener Linien haben sie weder entwickelt noch empfohlen oder geprüft. Die App verwendet die öffentlichen Fahrplan- und Echtzeitdaten, die die Wiener Linien als Open Data veröffentlichen.</div></div>
+
+  <div class="tiles" id="features">
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><circle cx="15" cy="15" r="12" fill="none" stroke="#007aff" stroke-width="2.5"/><path d="M15 8v7l5 3" fill="none" stroke="#007aff" stroke-width="2.5" stroke-linecap="round"/></svg>
+      <b>Echtzeit-Abfahrten</b><span>Direkt von den Wiener Linien, mit Verspätungen und Störungen.</span>
+    </div>
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><path d="M15 27s9-8.5 9-15a9 9 0 0 0-18 0c0 6.5 9 15 9 15z" fill="none" stroke="#309e4a" stroke-width="2.5" stroke-linejoin="round"/><circle cx="15" cy="12" r="3.2" fill="#309e4a"/></svg>
+      <b>Dein Weg</b><span>Echte Gehzeiten, und die App kann dein eigenes Tempo lernen.</span>
+    </div>
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect x="3" y="3" width="10.5" height="10.5" rx="3" fill="#ed7d00"/><rect x="16.5" y="3" width="10.5" height="10.5" rx="3" fill="#a661a3"/><rect x="3" y="16.5" width="24" height="10.5" rx="3" fill="#e3000f"/></svg>
+      <b>Widgets und Siri</b><span>Am Home-Bildschirm, am Sperrbildschirm und in der Dynamic Island.</span>
+    </div>
+    <div class="tile">
+      <svg viewBox="0 0 30 30" aria-hidden="true"><rect x="5" y="13" width="20" height="14" rx="3.5" fill="#9e6930"/><path d="M9.5 13V9.5a5.5 5.5 0 0 1 11 0V13" fill="none" stroke="#9e6930" stroke-width="2.5"/></svg>
+      <b>Privat</b><span>Kein Konto, kein Tracking. Deine Daten bleiben auf deinem iPhone.</span>
+    </div>
+  </div>
+
+  <footer class="muted">
+    <div class="stripe"><i style="background:#e3000f"></i><i style="background:#a661a3"></i><i style="background:#ed7d00"></i><i style="background:#309e4a"></i><i style="background:#299094"></i><i style="background:#9e6930"></i></div>
+    <p>Keine Eile ist eine unabhängige App und wird von den Wiener Linien weder entwickelt noch empfohlen oder geprüft. Daten: Open Data der Wiener Linien (CC BY 4.0). Gehzeiten und Adresssuche: Apple Karten.</p>
+    <p>© 2026 Sebastiaan Arnold</p>
+  </footer>
+</main>
+</body>
+</html>
